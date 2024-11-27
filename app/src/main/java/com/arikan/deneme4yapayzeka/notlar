@@ -1,0 +1,86 @@
+src/
+└── main/
+    ├── java/com/yourappname/
+    │   ├── data/
+    │   │   ├── local/
+    │   │   │   ├── dao/
+    │   │   │   │   ├── ApartmentDao.kt
+    │   │   │   │   ├── BuildingDao.kt
+    │   │   │   │   └── RoomDao.kt
+    │   │   │   ├── database/
+    │   │   │   │   └── AppDatabase.kt
+    │   │   │   └── entities/
+    │   │   │       ├── ApartmentEntity.kt
+    │   │   │       ├── BuildingEntity.kt
+    │   │   │       └── RoomEntity.kt
+    │   │   └── remote/
+    │   │       └── FirebaseService.kt
+    │   ├── repository/
+    │   │   ├── BuildingRepository.kt
+    │   │   ├── ApartmentRepository.kt
+    │   │   └── RoomRepository.kt
+    │   ├── ui/
+    │   │   ├── adapters/
+    │   │   │   ├── BuildingAdapter.kt
+    │   │   │   ├── ApartmentAdapter.kt
+    │   │   │   └── CoordinateAdapter.kt
+    │   │   ├── canvas/
+    │   │   │   └── RoomCanvasView.kt
+    │   │   ├── view/
+    │   │   │   ├── MainActivity.kt
+    │   │   │   ├── BuildingFragment.kt
+    │   │   │   ├── ApartmentFragment.kt
+    │   │   │   └── RoomFragment.kt
+    │   │   └── viewmodel/
+    │   │       ├── BuildingViewModel.kt
+    │   │       ├── ApartmentViewModel.kt
+    │   │       └── RoomViewModel.kt
+    │   ├── utils/
+    │   │   ├── Extensions.kt
+    │   │   └── Constants.kt
+    │   └── App.kt
+    └── res/
+        ├── layout/
+        │   ├── activity_main.xml
+        │   ├── fragment_building.xml
+        │   ├── fragment_apartment.xml
+        │   ├── fragment_room.xml
+        │   └── item_coordinate.xml
+        ├── values/
+        │   ├── colors.xml
+        │   ├── strings.xml
+        │   └── themes.xml
+
+
+
+        src/
+        └── main/
+            ├── java/com/yourappname/
+            │   ├── data/
+            │   │   ├── local/
+            │   │   │   ├── dao/
+            │   │   │   │   ├── ApartmentDao.kt
+            │   │   │   │   ├── BuildingDao.kt
+            │   │   │   │   └── RoomDao.kt
+            │   │   │   ├── database/
+            │   │   │   │   └── AppDatabase.kt
+            │   │   │   └── entities/
+            │   │   │       ├── ApartmentEntity.kt
+            │   │   │       ├── BuildingEntity.kt
+            │   │   │       └── RoomEntity.kt
+            │   │   └── remote/
+            │   │       └── FirebaseService.kt
+            │   ├── di/
+            │   │   └── DatabaseModule.kt
+            │   ├── repository/
+            │   │   ├── BuildingRepository.kt
+            │   │   ├── ApartmentRepository.kt
+            │   │   └── RoomRepository.kt
+            │   ├── ui/
+            │   │   ├── adapters/
+            │   │   ├── canvas/
+            │   │   ├── view/
+            │   │   └── viewmodel/
+            │   ├── utils/
+            │   └── App.kt
+

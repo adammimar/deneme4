@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Deneme4(YapayZeka)</string>
+    <string name="add_building">Add Building</string>
+    <string name="enter_building_name">Enter Building Name</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
