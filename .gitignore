@@ -1,0 +1,19 @@
+# Android Studio ile ilgili gereksiz dosyalar
+.idea/
+.gradle/
+build/
+*.iml
+
+# Android ayar dosyaları
+local.properties
+.DS_Store
+
+# Log dosyaları
+*.log
+
+# Sistem dosyaları
+*.class
+*.jar
+
+# Keystore dosyaları (Güvenlik için)
+*.jks
